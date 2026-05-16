@@ -1,0 +1,19 @@
+controller_list:
+  - name: fake_arm_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - iiwa_joint_1
+      - iiwa_joint_2
+      - iiwa_joint_3
+      - iiwa_joint_4
+      - iiwa_joint_5
+      - iiwa_joint_6
+      - iiwa_joint_7
+  - name: fake_gripper_controller
+    type: $(arg fake_execution_type)
+    joints:
+      - base_to_left_fingertip
+      - base_to_right_fingertip
+initial:  # Define initial robot poses per group
+  - group: gripper
+    pose: closed

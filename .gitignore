@@ -1,0 +1,35 @@
+# ROS1 Catkin workspace
+
+# Build artifacts
+build/
+devel/
+
+# Catkin tools
+.catkin_tools/
+
+# ROS generated files
+*.pyc
+__pycache__/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# Logs
+*.log
+
+# IDEs
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+*~
